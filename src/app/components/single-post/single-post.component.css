@@ -1,0 +1,17 @@
+/deep/ .single-post {
+  padding: 25px;
+  border-left: 1px solid #dee2e6;
+}
+
+.button-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+
+}
+
+.button-block i {
+  cursor: pointer;
+  color: pink;
+}

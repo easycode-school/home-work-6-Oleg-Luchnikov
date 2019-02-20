@@ -2,7 +2,7 @@
   <app-form></app-form>
   <div class="row">
     <ng-container *ngFor="let post of posts">
-        <app-single-post  class="col-lg-4" [post]="post" data-id="{{ post.id }}"></app-single-post>
+        <app-single-post  class="col-lg-4 single-post mb-5" [post]="post" id="{{ post.id }}"></app-single-post>
     </ng-container>
   </div>
 </div>
